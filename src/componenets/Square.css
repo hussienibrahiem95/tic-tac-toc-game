@@ -1,0 +1,27 @@
+.space {
+  background-color: white;
+  transition: background-color .5s;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  font-size: 125px;
+}
+.x, .o {
+  font-family: 'arial';
+  font-size: 70px;
+  position: absolute;
+ }
+ .x {
+  color: tomato;
+}
+
+.o {
+  color: #33DBFF;
+}
+.space:hover {
+  background-color: rgba(0,0,0,0);
+  transition: background-color .5s;
+  cursor: pointer;
+}
